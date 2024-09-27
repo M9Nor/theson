@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    position: relative;
+    
+    bottom: 0;
+    font-family: sans-serif;
+}
+.realtive{
+    position: relative;
+left:auto;
+bottom: ;
+}
+.realtive{
+    position: relative;
+    
+    width: 60%;
+    height: 50vh;
+
+
+}
+
+
+.one{
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    text-align: center;
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: transform 0.5s ease ;
+  
+
+}
+
+.one:hover{
+    transform: translateY(-20px);
+    background-color: brown;
+}
+
+
+
+
+
+
+
+
+.one h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}
+
+

@@ -1,0 +1,81 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section .button-hover{
+    margin-bottom: 30px;
+}
+button{
+    background-color: rgb(147, 147, 239);
+    color: white;
+
+}
+
+/* 1. :hover */
+
+section .button-hover:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* 2. :focus */
+input:focus {
+    border: 2px solid green;
+}
+
+/* 3. :active */
+a:active {
+    color: red;
+}
+
+/* 4. :nth-child */
+ul li:nth-child(2) {
+    background-color: yellow;
+}
+
+/* 5. :first-child and :last-child */
+p:first-child {
+    font-weight: bold;
+}
+
+p:last-child {
+    color: red;
+}
+
+/* 6. :not */
+button:not(.primary) {
+    background-color: gray;
+    color: white;
+}
+
+/* 7. :checked */
+input[type="checkbox"]:checked {
+    background-color: green;
+}
+
+/* 8. :before and :after */
+p:before {
+    content: "Note: ";
+    font-weight: bold;
+}
+
+p:after {
+    content: " (End)";
+}
+
+/* 9. :disabled */
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+/* 10. :nth-of-type */
+p:nth-of-type(2) {
+    color: blue;
+}
